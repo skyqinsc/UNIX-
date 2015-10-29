@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
 	union {
-		short s;
-		char c[sizeof(short)];
+        short s;
+        char c[sizeof(short)];
 	}un;
 	un.s=0x0102;
 	//printf("%d==\n",un.s);
